@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
-identifier,,,true,Identifier
+last_nameLast Name,,,,
+first_name,First Name,,,
+institution,Institution,,,
+working_language,Working Language,,,
+origin_country,Country of Origin,,,
+identifier,,,TRUE,Identifier
