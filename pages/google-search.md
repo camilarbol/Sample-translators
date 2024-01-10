@@ -2,7 +2,8 @@
 title: Google CSE
 layout: page
 permalink: /search/google.html
-noindex: true
+# optional Google search page, see docs/google.md
+# set google-cse-id in _config.yml
 ---
 
 ## Google Site Search

@@ -1,5 +1,4 @@
-/*  
-    base - slight modifications to override base Bootstrap
+/*  base - slight modifications to override base Bootstrap
     these values are configurable using theme.yml > Theme Fonts area 
     or by editing base variables in cb.scss
 */
@@ -18,7 +17,6 @@ a {
         }
     }
 }
-
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
 	padding:6px;
@@ -43,6 +41,7 @@ a {
     transition: top .1s ease-in;
 }
 
+
 /* banner */
 #home-banner-logo { 
     height: 40px; 
@@ -55,7 +54,7 @@ a {
 
 /* footer */
 #footer-logo {
-    height: 50px;
+    height: 40px;
 }
 #footer-credits {
     img { height: 40px; }
@@ -76,12 +75,11 @@ a {
 #scroll-to-top {
     display: none; 
     position: fixed; 
-    bottom: 20px; 
-    right: 20px; 
+    bottom: 38px; 
+    right: 22px; 
     z-index: 99;
     font-size: 40px; 
 }
-
 /* feature include tweaks */
 .feature-alert p:last-of-type { margin-bottom: 0; }
 @media (min-width: 768px) {
@@ -97,13 +95,14 @@ a {
     .feature-w-100 {
         width: 100%!important;
     }
-    .feature-float-end {
+    .feature-float-right {
         float: right!important;
     }
-    .feature-float-start {
+    .feature-float-left {
         float: left!important;
     } 
 }
+
 
 /* bootstrap icons tweaks */
 .bi { 
